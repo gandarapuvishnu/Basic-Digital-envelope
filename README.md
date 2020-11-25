@@ -10,11 +10,12 @@ Sender:
 4.	Collect Receiver’s public key
 5.	Encrypt Receiver’s public key and the random symmetric key using Assymetric Encryption(In this case, RSA encryption algorithm.)
 6.	Combine both Encrypted message and encrypted key.
-#Envelope Created\
+
+#Envelope Created
 
 Receiver:
 1.	Decrypt the encrypted key shared within the digital envelope, using the receiver’s private key and the encrypted key by the means of assymetric decryption(In this case, RSA decryption algorithm ).
 2.	By using the decrypted key obtained, receiver has to decrypt the message using that key by using the Symmetric Decryption(In this case, Ceasar Cipher algorithm).
 
-#Envelope Opened\
+#Envelope Opened
 3.	Now, if the receiver is the expected receiver by the sender, then message will be shared correctly. Otherwise, it’ll be corrupt message.
