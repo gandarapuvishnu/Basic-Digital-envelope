@@ -22,3 +22,7 @@ Receiver:
 #Envelope Opened
 
 3.	Now, if the receiver is the expected receiver by the sender, then message will be shared correctly. Otherwise, it’ll be corrupt message.
+
+
+
+![Screenshot (87)](https://user-images.githubusercontent.com/52231690/100534339-a4878d80-3233-11eb-9628-5ccce9835839.png)
